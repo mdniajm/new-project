@@ -3,7 +3,7 @@
 class Post {
     public $user, $post, $comment;
 
-    public function __constructor($u, $p){
+    public function __construct($u, $p){
         $u = this -> user;
         $p = this -> post;
 
@@ -15,6 +15,5 @@ class Post {
 
 }
 
-$post = new Post;
+$post = new Post('niaj','this is a sample post') ;
 
-echo $post;
